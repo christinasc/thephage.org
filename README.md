@@ -1,9 +1,9 @@
 thephage.org
 ============
 
-The respository contains custom shortcodes for the <a href="http://thephage.org/camp-directory-2/"> directory </a>
-and <a href="http://thephage.org/some-interesting-lists/"> interesting lists </a> on  thephage.org wordpress site
-The shortcodes are a draft and quickly thrown together. Feel free to edit and refine.
+This repository contains custom shortcodes for the <a href="http://thephage.org/camp-directory-2/"> directory </a>
+and <a href="http://thephage.org/some-interesting-lists/"> interesting lists </a> pages on http://thephage.org wordpress site
+The shortcodes.php file lives in the wp-includes directory (access this via cpanel).  Feel free to edit and refine.
 
 <b>Shortcode Tutorials: </b>
 <ul>

@@ -5,27 +5,37 @@ The respository contains custom shortcodes for the <a href="http://thephage.org/
 and <a href="http://thephage.org/some-interesting-lists/"> interesting lists </a> on  thephage.org wordpress site
 The shortcodes are a draft and quickly thrown together. Feel free to edit and refine.
 
-How its used: 
+<b>Shortcode Tutorials: </b>
+<ul>
+<li>http://wp.smashingmagazine.com/2012/05/01/wordpress-shortcodes-complete-guide/
+<li>http://codex.wordpress.org/Shortcode_API
+</ul>
+
+
+<b>How this code is used: </b>
 
 Example below for the wordpress page called <a href="http://thephage.org/some-interesting-lists/"> interesting lists </a>.
 5 is the Id# of the Gravity Forms used for Camp Registration 2013.
 
+
 ======================================================================
 
-Total Site Entries: [totalsite form =5]
+Total Site Entries: <code> [totalsite form =5] </code>
 
-Phagelings Going ([totalattend form=5]):
+Phagelings Going (<code> [totalattend form=5] </code>):
 
+<code>
 [participants form=5]
+</code>
 
-Going, but not with The Phage ([totalnotattend form =5]):
+Going, but not with The Phage (<code>[totalnotattend form =5]</code>):
 
-[notwithphage form=5]
+<code>[notwithphage form=5]</code>
 
-Not Going:([totalnotgoing form=5]):
+Not Going:(<code>[totalnotgoing form=5]</code>):
 
 (If not going, change 'Phage Camp Taxes?' to 'Not Going' in your Entry)
-[notgoing form=5]
+<code>[notgoing form=5]</code>
 
 (Existing Users):
-[old_participants form=9]
+<code>[old_participants form=9]</code>

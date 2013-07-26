@@ -1,12 +1,13 @@
 thephage.org
 ============
 
-custom shortcodes for the <a href="http://thephage.org/camp-directory-2/"> directory </a>
+The respository contains custom shortcodes for the <a href="http://thephage.org/camp-directory-2/"> directory </a>
 and <a href="http://thephage.org/some-interesting-lists/"> interesting lists </a> on  thephage.org wordpress site
+The shortcodes are a draft and quickly thrown together. Feel free to edit and refine.
 
-draft. 
+How its used: 
 
-How its used on in the wordpress page is shown below for  <a href="http://thephage.org/some-interesting-lists/"> interesting lists </a>. 
+Example below for the wordpress page called <a href="http://thephage.org/some-interesting-lists/"> interesting lists </a>.
 5 is the Id# of the Gravity Forms used for Camp Registration 2013.
 
 ======================================================================

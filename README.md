@@ -6,7 +6,7 @@ and <a href="http://thephage.org/some-interesting-lists/"> interesting lists </a
 
 draft. 
 
-How its used on the interesting lists wordpress page is shown below. 
+How its used on in the wordpress page is shown below for  <a href="http://thephage.org/some-interesting-lists/"> interesting lists </a>. 
 5 is the Id# of the Gravity Forms used for Camp Registration 2013.
 
 ======================================================================

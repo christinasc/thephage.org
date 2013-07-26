@@ -1,4 +1,4 @@
 thephage.org
 ============
 
-custom code for thephage.org wordpress site
+custom shortcodes for the directory and interesting lists on  thephage.org wordpress site

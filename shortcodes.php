@@ -401,7 +401,7 @@ function phage_participants($atts) {
                 $taxstatus = $participant['4'];
                 $entryid = $participant['id'];
        
-                if (!strcmp($taxstatus, "regular") || !strcmp($taxstatus, "Exemption Code")) {                    
+                if (!strcmp($taxstatus, "regular") || !strcmp($taxstatus, "Exemption Code")|| !strcmp($taxstatus, "TaxTransfer")) {                    
                     $fname    = $participant['2.3'];
                     $lname = $participant['2.6'];
            	        $email = $participant['1'];
@@ -518,7 +518,7 @@ function totalentries($atts) {
         $scouts = RGFormsModel::get_leads($form_id, '2.6', 'ASC', $search='', $offset=0, $page_size=150);
         foreach ($scouts as $participant) { 
           $taxstatus = $participant['4'];
-          if (!strcmp($taxstatus, "regular") || !strcmp($taxstatus, "Exemption Code") ) {  
+          if (!strcmp($taxstatus, "regular") || !strcmp($taxstatus, "Exemption Code") || !strcmp($taxstatus,"TaxTransfer") ) {  
           $total++;
           }
         }
@@ -580,7 +580,8 @@ function entries($atts) {
 	$photo = $participant['26'];
 	       $email = $participant['1'];
 	       	      $preplaya = $participant['18'];
-		      		$newbie = $participant['14'];					
+		      		$newbie = $participant['14'];
+					
 						$sponsor = strlen($participant['17']) > 0 ?  "<strong> Newbie Inducted by: </strong>".$participant['17'] : "";
 							 $playaname = strlen($participant['30']) > 0 ? " <strong> Playaname: </strong>".$participant['30'] : "";
 							 	    $phone = strlen($participant['3']) > 0 ?  " <strong> Phone: </strong>".$participant['3'] : "";
